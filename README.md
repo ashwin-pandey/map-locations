@@ -1,6 +1,6 @@
 # MapLocations
 
-![alt text](https://github.com/ashwin-pandey/map-locations/tree/master/src/assets/images/screenshot.png "Application Screenshot")
+![image](https://github.com/ashwin-pandey/map-locations/tree/master/src/assets/images/screenshot.png)
 
 **This application requires the location permission.**
 
