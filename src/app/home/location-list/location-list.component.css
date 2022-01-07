@@ -1,0 +1,55 @@
+.list-container {
+    position: relative;
+    height: 100%;
+}
+
+.list {
+    height: 95%;
+}
+.list ol {
+    padding: 1rem;
+}
+
+.list .location {
+    text-align: left;
+    font: normal normal normal 14px/19px Segoe UI;
+    letter-spacing: 0px;
+    color: #123043;
+    opacity: 1;
+}
+
+.list .latitude,
+.list .longitude {
+    text-align: left;
+    font: normal normal 600 14px/19px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.list .title {
+    text-align: left;
+    font: normal normal bold 14px/19px Segoe UI;
+    letter-spacing: 0px;
+    color: #123043;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.show-route {
+    width: 75%;
+    margin: 0 auto;
+    position: sticky;
+    bottom: 0;
+    align-items: center;
+}
+
+.show-route .btn {
+    background-color: #074770;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 21px;
+    position: absolute;
+    bottom: 0;
+}

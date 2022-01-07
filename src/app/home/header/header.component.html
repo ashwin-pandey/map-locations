@@ -1,0 +1,31 @@
+<div class="header p-4">
+    <form [formGroup]="locationForm" (ngSubmit)="onSubmit()">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div class="d-flex flex-row">
+                        <div class="d-flex d-flex-inline">
+                            <div class="location-name form-group">
+                                <div class="input-name">Location Name</div>
+                                <input type="text" formControlName="location" name="location" placeholder="Location">
+                            </div>
+                            <div class="latitude form-group">
+                                <div class="input-name">Enter Latitude</div>
+                                <input type="text" formControlName="latitude" name="latitude" placeholder="Lat.">
+                            </div>
+                            <div class="longitude form-group">
+                                <div class="input-name">Enter Longitude</div>
+                                <input type="text" formControlName="longitude" name="longitude" placeholder="Lon.">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="d-flex flex-row-reverse">
+                        <button class="btn btn-outline-secondary submit-button">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

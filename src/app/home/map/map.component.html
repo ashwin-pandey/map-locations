@@ -1,0 +1,18 @@
+<agm-map 
+[latitude]="latitude" [longitude]="longitude" [zoom]="zoom">
+    <agm-marker 
+    *ngFor="let data of list" 
+    [latitude]="data.latitude" [longitude]="data.longitude"
+    [agmFitBounds]="true">
+    </agm-marker>
+    <map-polyline 
+    [visible]="true" [strokeWeight]="3" [strokeColor]="'#2E2E06'">
+    <!-- <map-polyline [options]="polylineOptions"> -->
+        <agm-polyline-point
+            *ngFor="let coordinate of list"
+            [latitude]="coordinate.latitude"
+            [longitude]="coordinate.longitude"></agm-polyline-point>
+    </map-polyline>
+</agm-map>
+
+<!-- <div id="map"></div> -->

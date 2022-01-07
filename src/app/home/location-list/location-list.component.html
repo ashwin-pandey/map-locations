@@ -1,0 +1,17 @@
+<div class="container list-container">
+    <div class="list p-2">
+        <div class="title">All Co-ordinates</div>
+        <ol type="1">
+            <li *ngFor="let item of list">
+                <div class="row">
+                    <div class="col-6 location">{{ item.location }}</div>
+                    <div class="col-3 latitude">{{ item.latitude }}</div>
+                    <div class="col-3 longitude">{{ item.longitude }}</div>
+                </div>
+            </li>
+        </ol>
+    </div>
+    <div class="show-route">
+        <div class="btn btn-outline-secondary" style="width: 100%;">Show Route</div>
+    </div>
+</div>
