@@ -23,7 +23,7 @@ import { AgmCoreModule } from '@agm/core';
     AppRoutingModule,
     ReactiveFormsModule,
     AgmCoreModule.forRoot({
-      apiKey: process.env.GOOGLE_MAP_API_KEY,
+      apiKey: GOOGLE_MAP_API_KEY,
       libraries: ['places', 'drawing', 'geometry']
     })
   ],
