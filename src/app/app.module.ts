@@ -23,7 +23,7 @@ import { AgmCoreModule } from '@agm/core';
     AppRoutingModule,
     ReactiveFormsModule,
     AgmCoreModule.forRoot({
-      apiKey: '',
+      apiKey: 'AIzaSyAYG9A3KJN979QqPsCXX_r19OCiYbibLqU',
       libraries: ['places', 'drawing', 'geometry']
     })
   ],
